@@ -40,6 +40,6 @@ Metamask (https://metamask.io/)
 
 ### Demo App
 
-Click [here](https://tokenaussie.github.io/cryptoright/frontend/index.html) to launch the CryptoRight application.
+Click [here](https://tokenaussie.github.io/cryptoright/frontend/index.html) to launch the 123NFT! application.
 ------------------------------------------------------
 
