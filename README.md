@@ -41,3 +41,15 @@ Metamask (https://metamask.io/)
 ### Demo App
 
 Click [here](https://tokenaussie.github.io/cryptoright/frontend/index.html) to launch the CryptoRight application.
+------------------------------------------------------
+
+gmail username: nftfintechproject
+gmail password: nftsuccess
+pinata username: nftfintechproject@gmail.com
+pinata password: Nftsuccess123
+pinata API Key
+f834a644cfbeb0f5af71
+pinata API Secret
+bcf24a2b37e9757040f0f17c691de2b1703484cb0793d474ac4566869a04fac9
+pinata JWT
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySW5mb3JtYXRpb24iOnsiaWQiOiJmNjFiMGQ3Yi1mYmQwLTQ5YWYtYWMwMS1lODEwY2FiZDFmZTEiLCJlbWFpbCI6Im5mdGZpbnRlY2hwcm9qZWN0QGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaW5fcG9saWN5Ijp7InJlZ2lvbnMiOlt7ImlkIjoiTllDMSIsImRlc2lyZWRSZXBsaWNhdGlvbkNvdW50IjoxfV0sInZlcnNpb24iOjF9LCJtZmFfZW5hYmxlZCI6ZmFsc2V9LCJhdXRoZW50aWNhdGlvblR5cGUiOiJzY29wZWRLZXkiLCJzY29wZWRLZXlLZXkiOiJmODM0YTY0NGNmYmViMGY1YWY3MSIsInNjb3BlZEtleVNlY3JldCI6ImJjZjI0YTJiMzdlOTc1NzA0MGYwZjE3YzY5MWRlMmIxNzAzNDg0Y2IwNzkzZDQ3NGFjNDU2Njg2OWEwNGZhYzkiLCJpYXQiOjE2MjY3ODA0MzJ9.Q7dCMSdGYwDD1wlY4wWCqYgkeK16TRfbiJDnAtc-654
