@@ -41,4 +41,4 @@ Metamask (https://metamask.io/)
 
 ### 123NFT App
 
-Click [here](frontend/index.html) to launch the 123NFT! application.
+Click [here](https://tokenaussie.github.io/123NFT/frontend/index.html) to launch the 123NFT! application.
