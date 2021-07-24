@@ -45,6 +45,7 @@ How much they cost.
 Opensea
 Rarible
 Mintable
+GFT exchange
 
 ---------------------------
 # 123NFT Blockchain System
