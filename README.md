@@ -40,13 +40,17 @@ Website was created with Canva. html file updated in frontend/index.html
 Images in website were either from Canva or Pexel, royalty free images.
 
 (Kai to do)
-Add in who the competitors are and how they work.
+Who are the main players in the NFT space?
+How they work, how much they cost.
 How much they cost.
 Opensea
 Rarible
 Mintable
 GFT exchange
 
+Decentralised file storage systems?
+Pinata
+Filecoin
 ---------------------------
 # 123NFT Blockchain System
 
