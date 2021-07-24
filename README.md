@@ -39,16 +39,6 @@ Metamask (https://metamask.io/)
 ---------------------------
 # 123NFT Blockchain System
 
-## Summary
+### 123NFT App
 
-This application easily lets people mint their own NFTs on the Ethereum blockchain.
-
-### Demo App
-
-Click [here](frontend/index.html) to launch the CryptoRight application.
-
-### Demo App
-
-Click [here](https://tokenaussie.github.io/123NFT/) to launch the 123NFT! application.
-------------------------------------------------------
-
+Click [here](frontend/index.html) to launch the 123NFT! application.
