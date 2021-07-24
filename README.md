@@ -49,6 +49,6 @@ Click [here](frontend/index.html) to launch the CryptoRight application.
 
 ### Demo App
 
-Click [here](hhttps://tokenaussie.github.io/123NFT/) to launch the 123NFT! application.
+Click [here](https://tokenaussie.github.io/123NFT/) to launch the 123NFT! application.
 ------------------------------------------------------
 
