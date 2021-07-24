@@ -36,10 +36,19 @@ Pinata (https://pinata.cloud/pinmanager)
 Metamask (https://metamask.io/)
 123NFT
 
+---------------------------
+# 123NFT Blockchain System
 
+## Summary
+
+This application easily lets people mint their own NFTs on the Ethereum blockchain.
 
 ### Demo App
 
-Click [here](https://tokenaussie.github.io/cryptoright/frontend/index.html) to launch the 123NFT! application.
+Click [here](frontend/index.html) to launch the CryptoRight application.
+
+### Demo App
+
+Click [here](hhttps://tokenaussie.github.io/123NFT/) to launch the 123NFT! application.
 ------------------------------------------------------
 
