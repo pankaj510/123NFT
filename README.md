@@ -36,6 +36,16 @@ Pinata (https://pinata.cloud/pinmanager)
 Metamask (https://metamask.io/)
 123NFT
 
+Website was created with Canva. html file updated in frontend/index.html
+Images in website were either from Canva or Pexel, royalty free images.
+
+(Kai to do)
+Add in who the competitors are and how they work.
+How much they cost.
+Opensea
+Rarible
+Mintable
+
 ---------------------------
 # 123NFT Blockchain System
 
