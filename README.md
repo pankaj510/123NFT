@@ -1,10 +1,11 @@
 # Welcome to 123NFT!
+Minting NFTs as easy as 1, 2, 3.  
 
-## Summary
+Presented by Alisha Geary, Kevin Zhao, James Sheridan, Kai Ooi
 
-Welcome to 123NFT!
+## Motivation
 
-We wanted to make creating NFT’s as easy as 1,2,3 by taking all the complicated and scary programming work OUT of the equation for you - so that all you need to do is insert your content below, provide your pinata API keys and sit back and receive your NFT (well the address that contains your NFT)  which is all yours to do with what you want - sell it, trade it, frame it, you name it!
+We wanted to make creating NFTs as easy as 1, 2, 3 by taking all the complicated programming work OUT of the equation for users. All new users to our platform would have to do is insert their content, provide pinata API keys and mint their NFTs. Sell it, trade it, frame it, you name it!
 
 What is pinata API keys???
 
@@ -14,6 +15,8 @@ A secret key
 You will need to store these in a safe place as they are the keys that unlock your NFT!
 
 Pinata is a file storage system that keeps your files safe but it is up to you to keep your keys to the safe...safe!
+
+## Cost
 
 What’s the cost?
 
@@ -28,7 +31,7 @@ What happens if I want to sell my NFT to someone else?
 Not a biggie. You will just need to notify us and we will change the owner of the NFT for you. A small fee would be charged for the transfer and we advise including this fee in your sale price to pass the fee onto your buyer!
 
 
-Sound good? Start below!
+# Data Collection
 
 To begin, you will need:
 Your content
@@ -36,24 +39,46 @@ Pinata (https://pinata.cloud/pinmanager)
 Metamask (https://metamask.io/)
 123NFT
 
-Website was created with Canva. html file updated in frontend/index.html
+Website was created with Canva.  
+html file updated in frontend/index.html
 Images in website were either from Canva or Pexel, royalty free images.
 
-(Kai to do)
-Who are the main players in the NFT space?
-How they work, how much they cost.
-How much they cost.
-Opensea
-Rarible
-Mintable
-GFT exchange
+(Link to open sea URL, medium how to mint NFT)  
+Need to tidy up the table
+![comparison](images/comparison.jpg)  
 
-Decentralised file storage systems?
-Pinata
+# Lmitations
+
+Decentralised file storage systems?  
+Pinata  
 Filecoin
----------------------------
-# 123NFT Blockchain System
 
-### 123NFT App
+# Problems faced
+1. Getting cheap decentrlaised file storage
+2. Creating code which makes everything seamless
+
+
+# Future thoughts:  
+1. Incorporation with gaming companies, allowing players to automatically capture a snippet and mint an NFT.  
+2. Do we have to stay with the Ethereum blockchain? Ethereum is no doubt a giant in the cryptocurrency space, and has a first mover advantage in the smart contract area. However gas prices are high, and there is controversy towards their carbon footprint/enviromental impact.  
+Solutions would be to write smart contracts/mint NFTs on layer 2 on Ethereum (Polygon or Immutable network), or use a totally separate blockchain (Vechain, Algorand, Cardano, Solana, Tezos etc).  
+Ethereum is a low risk blockchain. Choosing an alternative better, faster, cheaper blockchain would solve our scaling problems. However it is higher risk as whether the blockchain succeeds, and in extension whether 123NFTs success, depends on whether there is an active marketplace for buyers and sellers. Whichever network is chosen, one needs to ensure the longevity of the blockchain over the next few years.  
+https://www.hicetnunc.xyz/ is built on the Tezos blockchain.  
+https://litemint.com/ is built on the Stellar blockchain.
+3. 123NFT might choose to have our own goverance token, similar to how Rarible has it's own RARI token. This moves towards being a fully Decentralised Autonomous Organisation (DAO), where platform users have decision rights and voting requires staking tokens for a specific period. (Link to daytrading website)
+
+# Conclusion
+Add in something here
+
+# 123NFT App
 
 Click [here](https://tokenaussie.github.io/123NFT/frontend/index.html) to launch the 123NFT! application.
+
+# Links:  
+https://opensea.io/blog/guides/7-reasons-to-sell-your-nfts-on-opensea/
+https://www.daytrading.com/rarible#:~:text=NFT%20features-,Fees,only%20charges%202.5%25%20in%20commission.
+https://medium.com/cryptogeum/how-to-mint-an-nft-on-opensea-f46725a41e1d#:~:text=OpenSea%20doesn't%20charge%20you,on%20resales%20of%20your%20NFTs.  
+https://thecollegeinvestor.com/36849/rarible-review/
+https://www.reddit.com/r/NiftyGateway/comments/m3myhv/nifty_gateway_gas_fees_and_when_you_get_charged/
+https://www.immutable.com/
+https://www.youtube.com/watch?v=ny7QcnVeDVw
