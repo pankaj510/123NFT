@@ -5,84 +5,92 @@ Presented by Alisha Geary, Kevin Zhao, James Sheridan, Kai Ooi
 
 ## Motivation
 
-We wanted to make creating NFTs as easy as 1, 2, 3 by taking all the complicated programming work OUT of the equation for users. All new users to our platform would have to do is insert their content, provide pinata API keys and mint their NFTs. Sell it, trade it, frame it, you name it!
+We wanted to make creating NFTs as easy as 1, 2, 3 by taking all the complicated programming work out of the equation. All users of the 123NFT platform would have to do, is insert their content and mint their NFTs. We wanted to make it as seamless, transparent, and open as possible.  
 
-What is pinata API keys???
+Sell it, trade it, frame it, you name it!
 
-Pinata is where your NFT will live. Below, you will be able to add your content (photo, video, soundtrack etc.) and you will receive:
-A public key
-A secret key
-You will need to store these in a safe place as they are the keys that unlock your NFT!
+## Signing up to 123NFT
 
-Pinata is a file storage system that keeps your files safe but it is up to you to keep your keys to the safe...safe!
+Visit our website, sign up as a new user.
+
+## Uploading content to Pinata and 123NFT
+Minting an NFT represents ownership of a digital asset (Digital Art, Collectibles, Games, Music, Film, Memes, Sports, Fashion, Academia etc). This digital asset needs to be stored somewhere on the web.  
+
+Most NFT platforms have either some sort of centralised server running 24/7, or they use IPFS (InterPlenetary File System) (1). IPFS is a protocol and peer-to-peer network for storing and sharing data in a distributed file system. (2)  
+
+123NFT user content is stored in Pinata, which is an IPFS pinning service for platforms, creators, and collectors. (3)
+On Pinata, users will be able to add their content which will then be stored in the decentralised web. Pinata provides users with a 'hash'. This 'hash' is the link between the actual content and the NFT. The hash is then copied into out 123NFT platform, attributes of the NFT added, and then it is ready to be minted.  
+
+A Web3 wallet is also needed. Metamask is preferred. (4)
+
+## File size limits
+
+We currently have a file size limit of 10 megabytes per file, which will be more than enough for most people. To store a large sized digital asset for example a 4K video clip, you may incur storage costs in the form of a fixed fee per month. If payment is halted, access to the NFT will be restricted. We aim to prevent the issue of 'broken links. (5)
 
 ## Cost
 
-What’s the cost?
+Each Ethereum transaction requires computational resources to execute, each transaction requires a fee. Gas refers to the fee required to successfully conduct a transaction on Ethereum, and is paid in Ethereum's native currency, ether (ETH).
 
-As you know, everything to do with the blockchain will cost some moolah. As we are using Ethereum, it will cost some ETH (currency used on Ethereum). You will need to install an application called Metamask which will allow you to have your NFT stored on the blockchain. To use our service of doing it the easiest way will cost you $1. 
+In short:  
+Our service costs $1 incurred by the seller for minting + Gas fees  
 
-Surely there are more costs…
+Long answer:  
+Buyer fees: X% fee to 123NFT, X% royalty to original artist  
+Seller fees: None  
+Initialisation fees: None  
+Minting fees: $1 incurred by the seller for minting + Gas fees  
+Gas fees: Buyer pays when withdrawing  
+Other fees: None  
+Royalties: X% to original artist  
+Auction Types: Fixed price, auction  
+File Size Limit: 10 MB  
+Currencies supported: ETH
 
-Depending on how big your content is that you’re turning into an NFT, you may incur some storage costs by Pinata. We can handle that but we will need you to chip in as we aren’t any Jeff Bezos’. If your content reaches a certain size, we will charge you a fixed fee per month which will happen without you having to do anything further. If you can’t pay, we will have to restrict your access to the NFT and we don’t want to do that. If you can, all’s well and we will get along just fine!
+If you already have your NFT minted, and just want to use our platform to sell your NFT, then all it costs is gas fees. Our platform favours sellers.
 
-What happens if I want to sell my NFT to someone else?
+## Selling the NFT
 
-Not a biggie. You will just need to notify us and we will change the owner of the NFT for you. A small fee would be charged for the transfer and we advise including this fee in your sale price to pass the fee onto your buyer!
+In a fixed priced sale, the buyer of the NFT will pay the asking price of the NFT. X% of sale proceeds go to 123NFT, and X% to the original artist as a royalty. Transferring the NFT out to a private wallet like Metamask will incur gas fees (paid by the buyer) which are paid to Ethereum network miners.
 
+## Data Collection
+![comparison](images/comparison.jpg) (6, 7, 8, 9, 10)  
 
-# Data Collection
-
-To begin, you will need:
-Your content
-Pinata (https://pinata.cloud/pinmanager)
-Metamask (https://metamask.io/)
-123NFT
-
-Website was created with Canva.  
-html file updated in frontend/index.html
-Images in website were either from Canva or Pexel, royalty free images.
-
-(Link to open sea URL, medium how to mint NFT)  
-Need to tidy up the table
-![comparison](images/comparison.jpg)  
-
-# Limitations
-
-Decentralised file storage systems?  
-Pinata  
-Filecoin
-
-# Problems faced
-1. Getting cheap decentrlaised file storage
-2. Creating code which makes everything seamless
-
+# Limitations & Problems faced
+1. Getting cheap decentralised file storage
+2. Canva vs Github pages. Websites created on Canva do not render correctly on Github pages. Decision was made to stick with Canva.
+3. Creating code which makes it a seamless user experience from start to finish. Creating a 123NFT account, uploading content to IPFS, minting the NFT. Finding Solidity code which would let us (the creators) have a cut of profit in the meantime.
+4. Linking the backend to the front end smoothly. User experience needs to be as seamless as possible.
+5. Deciding on the business model of 123NFT. The biggest NFT marketplaces Opensea, Rarible, Mintable & Nifty all have different business models. As seen above, fees and charges vary wildly. The ability to mint an NFT, as opposed to just selling it varies too.
 
 # Future thoughts:  
 1. Incorporation with gaming companies, allowing players to automatically capture a snippet and mint an NFT.  
-2. Do we have to stay with the Ethereum blockchain? Ethereum is no doubt a giant in the cryptocurrency space, and has a first mover advantage in the smart contract area. However gas prices are high, and there is controversy towards their carbon footprint/enviromental impact.  
-Solutions would be to write smart contracts/mint NFTs on layer 2 on Ethereum (Polygon or Immutable network), or use a totally separate blockchain (Vechain, Algorand, Cardano, Solana, Tezos etc).  
-Ethereum is a low risk blockchain. Choosing an alternative better, faster, cheaper blockchain would solve our scaling problems. However it is higher risk as whether the blockchain succeeds, and in extension whether 123NFTs success, depends on whether there is an active marketplace for buyers and sellers. Whichever network is chosen, one needs to ensure the longevity of the blockchain over the next few years.  
+2. Do we have to code on the Ethereum blockchain? Ethereum is no doubt a giant in the cryptocurrency space, and has a first mover advantage in smart contracts. However gas prices are high, and there is controversy towards their carbon footprint/enviromental impact.  
+Solutions would be to write smart contracts/mint NFTs on layer 2 on Ethereum (Polygon or Immutable network) (11), or use a totally separate blockchain (Vechain, Algorand, Cardano, Solana, Tezos etc).  
+Ethereum is a low risk blockchain. Choosing an alternative better, faster, cheaper blockchain would solve our scaling problems. However it is higher risk as whether the blockchain succeeds, and in extension whether 123NFTs succeeds. There needs to be an active marketplace for buyers and sellers. Whichever network is chosen, one needs to ensure the longevity of the blockchain over the next few years.  
+Lesser known NFT marketplaces are shown here:  
 https://www.hicetnunc.xyz/ is built on the Tezos blockchain.  
 https://litemint.com/ is built on the Stellar blockchain.
-3. 123NFT might choose to have our own goverance token, similar to how Rarible has it's own RARI token. This moves towards being a fully Decentralised Autonomous Organisation (DAO), where platform users have decision rights and voting requires staking tokens for a specific period. (Link to daytrading website)
-4. With regards to hosting our content, we are currently using the Pinata IPFS File Management. We could adopt 'Filecoin', which is an open-source, public cryptocurrency and digital payment system intended to be a blockchain-based cooperative digital storage and data retrieval method. It is made by Protocol Labs and builds on top of InterPlanetary File System, allowing users to rent unused hard drive space.  (Link to Wikepedia).
+3. 123NFT might choose to have our own goverance token, similar to how Rarible has it's own RARI token. This moves towards being a fully Decentralised Autonomous Organisation (DAO), where platform users have decision rights and voting requires staking tokens for a specific period. (12)
+4. With regards to hosting our content, we are currently using the Pinata IPFS File Management. We could adopt 'Filecoin'(13), which is an open-source, public cryptocurrency and digital payment system intended to be a blockchain-based cooperative digital storage and data retrieval method. It is made by Protocol Labs and builds on top of InterPlanetary File System, allowing users to rent unused hard drive space.  
 
 # Conclusion
 Add in something here
 
 # 123NFT App
-Click [here](https://www.canva.com/design/DAEk6H9YhQs/HtZeNvjY-JHv032EdALqYQ/view) to launch the 123NFT! application.
-
-Will be deleted. This is the old link to the Github pages.
-Click [here](https://tokenaussie.github.io/123NFT/frontend/index.html) to launch the 123NFT! application.
+Click [here](https://www.canva.com/design/DAEk6H9YhQs/HtZeNvjY-JHv032EdALqYQ/view) to launch the 123NFT! application.  
+Website was created with Canva. Images were either from Canva or Pexel, royalty free.
 
 # Links:  
-https://opensea.io/blog/guides/7-reasons-to-sell-your-nfts-on-opensea/
-https://www.daytrading.com/rarible#:~:text=NFT%20features-,Fees,only%20charges%202.5%25%20in%20commission.
-https://medium.com/cryptogeum/how-to-mint-an-nft-on-opensea-f46725a41e1d#:~:text=OpenSea%20doesn't%20charge%20you,on%20resales%20of%20your%20NFTs.  
-https://thecollegeinvestor.com/36849/rarible-review/
-https://www.reddit.com/r/NiftyGateway/comments/m3myhv/nifty_gateway_gas_fees_and_when_you_get_charged/
-https://www.immutable.com/
-https://www.youtube.com/watch?v=ny7QcnVeDVw
-https://en.wikipedia.org/wiki/Filecoin
+1. https://ipfs.io/  
+2. https://en.wikipedia.org/wiki/InterPlanetary_File_System  
+3. https://pinata.cloud/  
+4. https://metamask.io/
+5. https://en.wikipedia.org/wiki/Link_rot
+6. https://opensea.io/blog/guides/7-reasons-to-sell-your-nfts-on-opensea/
+7. https://medium.com/cryptogeum/how-to-mint-an-nft-on-opensea-f46725a41e1d#:~:text=OpenSea%20doesn't%20charge%20you,on%20resales%20of%20your%20NFTs.  
+8. https://thecollegeinvestor.com/36849/rarible-review/
+9. https://www.reddit.com/r/NiftyGateway/comments/m3myhv/nifty_gateway_gas_fees_and_when_you_get_charged/
+10. https://www.youtube.com/watch?v=ny7QcnVeDVw
+11. https://www.immutable.com/
+12. https://www.daytrading.com/rarible#:~:text=NFT%20features-,Fees,only%20charges%202.5%25%20in%20commission.
+13. https://en.wikipedia.org/wiki/Filecoin
