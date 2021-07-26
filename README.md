@@ -71,7 +71,9 @@ https://litemint.com/ is built on the Stellar blockchain.
 Add in something here
 
 # 123NFT App
+Click [here](https://www.canva.com/design/DAEk6H9YhQs/HtZeNvjY-JHv032EdALqYQ/view) to launch the 123NFT! application.
 
+Will be deleted. This is the old link to the Github pages.
 Click [here](https://tokenaussie.github.io/123NFT/frontend/index.html) to launch the 123NFT! application.
 
 # Links:  
