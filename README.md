@@ -66,6 +66,7 @@ Ethereum is a low risk blockchain. Choosing an alternative better, faster, cheap
 https://www.hicetnunc.xyz/ is built on the Tezos blockchain.  
 https://litemint.com/ is built on the Stellar blockchain.
 3. 123NFT might choose to have our own goverance token, similar to how Rarible has it's own RARI token. This moves towards being a fully Decentralised Autonomous Organisation (DAO), where platform users have decision rights and voting requires staking tokens for a specific period. (Link to daytrading website)
+4. With regards to hosting our content, we are currently using the Pinata IPFS File Management. We could adopt 'Filecoin', which is an open-source, public cryptocurrency and digital payment system intended to be a blockchain-based cooperative digital storage and data retrieval method. It is made by Protocol Labs and builds on top of InterPlanetary File System, allowing users to rent unused hard drive space.  (Link to Wikepedia).
 
 # Conclusion
 Add in something here
@@ -84,3 +85,4 @@ https://thecollegeinvestor.com/36849/rarible-review/
 https://www.reddit.com/r/NiftyGateway/comments/m3myhv/nifty_gateway_gas_fees_and_when_you_get_charged/
 https://www.immutable.com/
 https://www.youtube.com/watch?v=ny7QcnVeDVw
+https://en.wikipedia.org/wiki/Filecoin
