@@ -45,7 +45,7 @@ Images in website were either from Canva or Pexel, royalty free images.
 
 (Link to open sea URL, medium how to mint NFT)  
 Need to tidy up the table
-![comparison](images/comparison2.jpg)  
+![comparison](images/comparison.jpg)  
 
 # Limitations
 
