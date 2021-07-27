@@ -7,7 +7,7 @@ interface new123NFT {
     function contractInvest() external payable;
     function holdingsTransfer(uint256 holdings) external;
     function contractHoldings() external view returns (uint bal);
-    function mint(string calldata nftNm, string calldata nftSym, string calldata _uri) external;
+    function mint(string calldata nftNm, string calldata nftSym, string calldata _uri, address payable royaltyadd, uint256 royaltyamt) external;
     function transferOwnership(address _oldOwner, address _newOwner) external;
     function owner() external view returns (address);
     function ownerOf(uint256 _tokenId) external view returns (address);
